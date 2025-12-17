@@ -1,7 +1,7 @@
 ---
 on:
-  schedule:
-    - cron: daily
+  schedule: "0 0 * * *"
+  workflow_dispatch:
 permissions: read-all
 engine: copilot
 tools:
